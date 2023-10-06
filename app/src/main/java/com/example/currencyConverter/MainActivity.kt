@@ -16,16 +16,16 @@ import java.lang.Exception
 class MainActivity : AppCompatActivity() {
     val TAG = "MainActivity"
 
-    private val currencyEGP = "EGP"
-    private val currencyUSD = "USD"
-    private val currencyEUR = "EUR"
-    private val currencyGBP = "GBP"
+    private val curEGP = "EGP"
+    private val curUSD = "USD"
+    private val curEUR = "EUR"
+    private val curGBP = "GBP"
 
     private val values = mapOf(
-        currencyUSD to 1.0,
-        currencyEGP to 30.80,
-        currencyEUR to 0.9,
-        currencyGBP to 0.7,
+        curUSD to 1.0,
+        curEGP to 30.80,
+        curEUR to 0.9,
+        curGBP to 0.7,
     )
 
     lateinit var currencyFrom: AutoCompleteTextView
@@ -152,10 +152,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun populateDropDownMenu() {
         val countries = listOf(
-            currencyEGP,
-            currencyUSD,
-            currencyEUR,
-            currencyGBP
+            curEGP,
+            curUSD,
+            curEUR,
+            curGBP
         )
         val adapter = ArrayAdapter(
             this,
