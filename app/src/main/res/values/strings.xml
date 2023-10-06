@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="main_title">@string/app_name</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
+    <string name="select_currency">Select currency</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="usd">USD</string>
+    <string name="egp">EGP</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="amount_empty_err_msg">Amount is empty!</string>
+    <string name="error_occurred">Error occurred!</string>
+</resources>
